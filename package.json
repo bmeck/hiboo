@@ -1,0 +1,10 @@
+{
+ "name": "haibu",
+ "version": "0.0.0-alpha",
+ "dependencies": {
+   "flatiron" : "*",
+   "union": "*",
+   "director": "*"
+ },
+ "scripts": {"start": "node haibu.js --http.port 80 --plugins http-service"}
+}

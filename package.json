@@ -4,7 +4,8 @@
  "dependencies": {
    "flatiron" : "*",
    "union": "*",
-   "director": "*"
+   "director": "*",
+   "understudy": "*"
  },
  "scripts": {"start": "node haibu.js --http.port 80 --plugins http-service"}
 }

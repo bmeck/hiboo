@@ -1,5 +1,8 @@
 node_modules
+!node_modules/repositron
+!node_modules/understudy
 autostart
+local
 .DS_Store
 .svn
 .log

@@ -6,7 +6,7 @@ exports.attach = function (options) {
    var httpsServer;
    this.servers = {
       get http() {
-         return httpServer || (httpServer = http.createServer(options.http));
+         return httpServer || (httpServer = http.createServer());
       },
       set http(value) {
          httpServer = value;

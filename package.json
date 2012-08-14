@@ -7,5 +7,5 @@
    "director": "*",
    "understudy": "*"
  },
- "scripts": {"start": "node haibu.js --http.port 80 --plugins http-service"}
+ "scripts": {"start": "node lib/hiboo --unauthorized.ok ${NOAUTH:=false} --http.port ${PORT:=80}"}
 }
